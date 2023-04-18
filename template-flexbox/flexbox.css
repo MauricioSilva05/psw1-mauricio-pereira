@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    background-color: aqua;
+}
+
+.column{
+    background-color: cadetblue;
+    border: solid 3px;
+    height: 300px;
+    flex: auto;
+}
+
+@media (max-width: 600px) {
+    .main {
+      flex-direction: column;
+    }
+  }

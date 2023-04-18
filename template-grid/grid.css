@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+
+.main{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-areas: 'asideesq content asidedir';
+    grid-template-columns: 1fr 5fr 1fr;
+    gap: 5px;
+    height: 400px;
+}
+
+.asideesquerda{
+    grid-area: asideesq;
+    background-color: blue;
+    height: 400px;
+}
+
+.content{
+    grid-area: content;
+    background-color: blueviolet;
+    height: 400px;
+}
+
+.asidedireita{
+    grid-area: asidedir;
+    background-color: brown;
+    height: 400px;
+}
